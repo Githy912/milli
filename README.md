@@ -36,14 +36,16 @@
 `milli` is written in standard C++ and interfaces directly with the Win32 API. You can compile it using `g++` (via MinGW) or MSVC.
 
 ```bash
-# Clone the repository
-git clone https://github.com
+# Get it from WinGet:
 
-# Change into the directory
-cd milli
+winget install Githy912.Milli
+```
+Or:
 
-# Build with g++
-g++ -O3 -std=c++17 main.cpp -o milli.exe
+Download the `milli.exe` from the repository and add it to PATH, or if you are a developer, download the `main.cpp` and `main.hpp` and compile using MinGW:
+
+```bash
+g++ -std=c++20 -O2 -Wall -Wextra main.cpp -o milli.exe
 ```
 
 ### Usage
