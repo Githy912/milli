@@ -52,6 +52,8 @@ g++ -std=c++20 -O2 -Wall -Wextra main.cpp -o milli.exe
 
 ```bash
 milli [filename]
+# OR
+milli
 ```
 
 ---
